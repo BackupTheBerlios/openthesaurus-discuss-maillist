@@ -1,0 +1,35 @@
+From feedback at openthesaurus.de  Wed Jan 15 15:10:20 2014
+From: feedback at openthesaurus.de (Daniel Naber)
+Date: Wed, 15 Jan 2014 15:10:20 +0100
+Subject: [OpenThesaurus] OpenThesaurus-News 1/2014
+Message-ID: <39b58de3564bcce7870909f30256a7d0@danielnaber.de>
+
+Liebe OpenThesaurus-User,
+
+das neue Jahr beginnt bei OpenThesaurus mit diversen kleinen aber 
+hilfreichen Verbesserungen:
+
+* Auf der Ergebnisseite werden jetzt alle Unterbegriffe angezeigt. Sind 
+es viele, kann man sie mit dem "Alle anzeigen"-Link einblenden. Außerdem 
+sind alle Ober-, Unterbegriffe und Assoziationen Links, so dass man 
+damit bequem eine weitere Suche auslösen kann.
+Beispiel: http://www.openthesaurus.de/synonyme/Haus
+
+* Auf der Ergebnisseite werden jetzt auch alle Antonyme angezeigt: 
+Wörter mit Antonym haben ein kleines "G" (wie 'Gegenteil'). Bleibt man 
+mit der Maus auf dem "G", werden die Antonyme angezeigt. Mit Klick wird 
+eine neue Suche gestartet.
+Beispiel: http://www.openthesaurus.de/synonyme/klein
+
+* Ein neues Feature für Mitwirkende: Möglicherweise fehlende Wörter 
+finden - damit lassen sich ganze Texte auf Wörter durchsuchen, die noch 
+nicht in OpenThesaurus stehen: http://www.openthesaurus.de/suggest/index
+
+viele Grüße
+
+Daniel Naber
+
+-- 
+Daniel Naber, Friesenstr. 3, 14482 Potsdam, Tel. +49-170-4819674
+http://www.danielnaber.de
+

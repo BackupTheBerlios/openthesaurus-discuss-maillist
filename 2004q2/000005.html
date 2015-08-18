@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ <HEAD>
+   <TITLE> Bug#193888: Outstanding ITP - openoffice.org-thesaurus-de
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/openthesaurus-discuss/2004q2/index.html" >
+   <LINK REL="made"  HREF="mailto:openthesaurus-discuss%40lists.berlios.de?Subject=Re%3A%20Bug%23193888%3A%20Outstanding%20ITP%20-%20openoffice.org-thesaurus-de&In-Reply-To=%3C20040413171937.GB1475%40rene-engelhard.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <LINK REL="Previous"  HREF="000004.html">
+   <LINK REL="Next"  HREF="000006.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>Bug#193888: Outstanding ITP - openoffice.org-thesaurus-de</H1>
+    <B>Rene Engelhard</B> 
+    <A
+    HREF="mailto:openthesaurus-discuss%40lists.berlios.de?Subject=Re%3A%20Bug%23193888%3A%20Outstanding%20ITP%20-%20openoffice.org-thesaurus-de&In-Reply-To=%3C20040413171937.GB1475%40rene-engelhard.de%3E"
+           TITLE="Bug#193888: Outstanding ITP - openoffice.org-thesaurus-de">rene at debian.org
+                  </A><BR>
+    <I>Di Apr 13 19:12:00 CEST 2004</I>
+    <P><UL>
+        <LI>Vorherige Nachricht: <A HREF="000004.html">Outstanding ITP - openoffice.org-thesaurus-de
+</A></li>
+        <LI>Nächste Nachricht: <A HREF="000006.html">Bug#193888: Outstanding ITP - openoffice.org-thesaurus-de
+</A></li>
+         <LI> <B>Nachrichten sortiert nach:</B> 
+              <a href="date.html#5">[ Datum ]</a>
+              <a href="thread.html#5">[ Thema ]</a>
+              <a href="subject.html#5">[ Betreff (Subject) ]</a>
+              <a href="author.html#5">[ Autor ]</a>
+         </LI>
+       </UL>
+    <HR>
+<!--beginarticle-->
+<PRE>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+[ <A HREF="https://lists.berlios.de/mailman/listinfo/openthesaurus-discuss">nnnn at bugs.debian.org</A> oly goes to the maintainer of the package the
+  bug is filed on - in this case <A HREF="https://lists.berlios.de/mailman/listinfo/openthesaurus-discuss">wnpp at debian.org.</A> So I didn't receive
+  the mail in the first place. Please Cc me or use <A HREF="https://lists.berlios.de/mailman/listinfo/openthesaurus-discuss">nnn-submitter at ..</A> ]
+
+Hi,
+
+Daniel Naber wrote:
+&gt;<i> On Tuesday 13 April 2004 12:24, Rene Engelhard wrote:
+</I>&gt;<i> 
+</I>&gt;<i> &gt; As I did ask for those scripts (a.k.a part of the source in the GPL
+</I>&gt;<i> &gt; sense) I didn't get it. (No offense intended, this is just a report.)
+</I>&gt;<i> 
+</I>&gt;<i> Not sure what you mean, I replied to your mail on 2003-09-16. The export 
+</I>
+I know...
+
+&gt;<i> script is a web page written in PHP. It exports to two text files.These 
+</I>&gt;<i> are then fed into an awk script which produces the binary files.
+</I>&gt;<i> 
+</I>&gt;<i> Both scripts (ooo_export.php and Parse_Thes.awk) are available from CVS:
+</I>&gt;<i> <A HREF="http://cvs.sourceforge.net/viewcvs.py/openthesaurus/openthesaurus/www/">http://cvs.sourceforge.net/viewcvs.py/openthesaurus/openthesaurus/www/</A>
+</I>&gt;<i> admin/
+</I>&gt;<i> 
+</I>&gt;<i> The PHP works on the database, not on the dump, so it's not so easy to set 
+</I>&gt;<i> up a &quot;make&quot; like task which builds the files.
+</I>
+Ugh.
+
+So the problem is _not_ solved. The problem is how I get from the
+&quot;source&quot; (db dump if you want) in a package build process the necessary
+files for the awk script. the ooo_export.php looks like being admin
+stuff of which I have no permissions or ways to use.
+
+(same with the text and KWord stuff, there is is a little less problem
+since that is editable text...
+
+If I package openthesarus if would want to create three debs:
+
+- - openoffice.org Thesaurus
+- - KWord Thesaurus
+- - text thesaurus
+
+Grüße/Regards,
+
+René
+- -- 
+ .''`.  René Engelhard -- Debian GNU/Linux Developer
+ : :' : <A HREF="http://www.debian.org">http://www.debian.org</A> | <A HREF="http://people.debian.org/~rene/">http://people.debian.org/~rene/</A>
+ `. `'  <A HREF="https://lists.berlios.de/mailman/listinfo/openthesaurus-discuss">rene at debian.org</A> | GnuPG-Key ID: 248AEB73
+   `-   Fingerprint: 41FA F208 28D4 7CA5 19BB  7AD9 F859 90B0 248A EB73
+      
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.4 (GNU/Linux)
+
+iD8DBQFAfCEp+FmQsCSK63MRAr8FAJ0UJysCyVznr0TRlK95jkjQATrF/ACghDi1
+apOPO6Bv4IbMna8t9zreUMI=
+=XCrP
+-----END PGP SIGNATURE-----
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Vorherige Nachricht: <A HREF="000004.html">Outstanding ITP - openoffice.org-thesaurus-de
+</A></li>
+	<LI>Nächste Nachricht: <A HREF="000006.html">Bug#193888: Outstanding ITP - openoffice.org-thesaurus-de
+</A></li>
+         <LI> <B>Nachrichten sortiert nach:</B>
+              <a href="date.html#5">[ Datum ]</a>
+              <a href="thread.html#5">[ Thema ]</a>
+              <a href="subject.html#5">[ Betreff (Subject)]</a>
+              <a href="author.html#5">[ Autor ]</a>
+         </LI>
+       </UL>
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/openthesaurus-discuss">Mehr Informationen &uuml;ber die Mailingliste Openthesaurus-discuss</a><br>
+</body></html>

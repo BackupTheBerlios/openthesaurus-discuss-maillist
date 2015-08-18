@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [OpenThesaurus] Fehlerhafte Umlaute im Datenbank-Dump
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/openthesaurus-discuss/2009q2/index.html" >
+   <LINK REL="made"  HREF="mailto:openthesaurus-discuss%40lists.berlios.de?Subject=Re%3A%20%5BOpenThesaurus%5D%20Fehlerhafte%20Umlaute%20im%20Datenbank-Dump&In-Reply-To=%3CD32E2897-1A7E-4145-BD84-C23290265BCE%40inf.fu-berlin.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <LINK REL="Previous"  HREF="000056.html">
+   <LINK REL="Next"  HREF="000058.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[OpenThesaurus] Fehlerhafte Umlaute im Datenbank-Dump</H1>
+    <B>Ralph Schäfermeier</B> 
+    <A
+    HREF="mailto:openthesaurus-discuss%40lists.berlios.de?Subject=Re%3A%20%5BOpenThesaurus%5D%20Fehlerhafte%20Umlaute%20im%20Datenbank-Dump&In-Reply-To=%3CD32E2897-1A7E-4145-BD84-C23290265BCE%40inf.fu-berlin.de%3E"
+           TITLE="[OpenThesaurus] Fehlerhafte Umlaute im Datenbank-Dump">schaef at inf.fu-berlin.de
+                  </A><BR>
+    <I>Do Apr  2 00:53:15 CEST 2009</I>
+    <P><UL>
+        <LI>Vorherige Nachricht: <A HREF="000056.html">[OpenThesaurus] Fehlerhafte Umlaute im Datenbank-Dump
+</A></li>
+        <LI>Nächste Nachricht: <A HREF="000058.html">[OpenThesaurus] Fehlerhafte Umlaute im Datenbank-Dump
+</A></li>
+         <LI> <B>Nachrichten sortiert nach:</B> 
+              <a href="date.html#57">[ Datum ]</a>
+              <a href="thread.html#57">[ Thema ]</a>
+              <a href="subject.html#57">[ Betreff (Subject) ]</a>
+              <a href="author.html#57">[ Autor ]</a>
+         </LI>
+       </UL>
+    <HR>
+<!--beginarticle-->
+<PRE>Hallo,
+
+Am 01.04.2009 um 22:50 schrieb Markus Stein:
+
+&gt;&gt;<i> -----Ursprüngliche Nachricht-----
+</I>&gt;&gt;<i> Von: <A HREF="https://lists.berlios.de/mailman/listinfo/openthesaurus-discuss">openthesaurus-discuss-bounces at lists.berlios.de</A> [mailto:<A HREF="https://lists.berlios.de/mailman/listinfo/openthesaurus-discuss">openthesaurus-discuss-bounces at lists.berlios.de</A> 
+</I>&gt;&gt;<i> ] Im Auftrag von Thomas Zastrow
+</I>&gt;&gt;<i> Gesendet: Mittwoch, 1. April 2009 22:06
+</I>&gt;&gt;<i> An: Daniel Naber
+</I>&gt;&gt;<i> Cc: <A HREF="https://lists.berlios.de/mailman/listinfo/openthesaurus-discuss">openthesaurus-discuss at lists.berlios.de</A>
+</I>&gt;&gt;<i> Betreff: Re: [OpenThesaurus] Fehlerhafte Umlaute im Datenbank-Dump
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Daniel Naber schrieb:
+</I>&gt;&gt;&gt;<i> On Wednesday 01 April 2009, Ralph Schäfermeier wrote:
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;&gt;<i> Allerdings sind sämtliche Sonderzeichen wie Umlaute, Vokale mit
+</I>&gt;&gt;&gt;&gt;<i> Akzenten usw. fehlerhaft.
+</I>&gt;&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> Danke für den Hinweis - das Problem ist bekannt, es ist allerdings  
+</I>&gt;&gt;&gt;<i> nicht
+</I>&gt;&gt;&gt;<i> einfach durch eine andere Einstellung beim Export zu beheben.
+</I>&gt;&gt;&gt;<i> Mittelfristig wird sich das Problem durch eine ohnehin geplante  
+</I>&gt;&gt;&gt;<i> Umstellung
+</I>&gt;&gt;&gt;<i> der Datenstruktur erledigen.
+</I>&gt;&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i> mfg
+</I>&gt;&gt;&gt;<i> Daniel
+</I>&gt;&gt;&gt;<i>
+</I>Okay, danke :-)
+
+&gt;&gt;&gt;<i>
+</I>&gt;&gt;<i> Hallo,
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> ich bin so frei und mische mich mal in den Thread ein.
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Ich baue gerade ein kleines Programm um den OpenThesaurus auf, eine
+</I>&gt;&gt;<i> UTF-8-Kodierung der Daten wäre da sehr nützlich. Wenn alles glatt  
+</I>&gt;&gt;<i> geht,
+</I>&gt;&gt;<i> werde ich das Teil am Wochenende veröffentlichen, ist aber nix
+</I>&gt;&gt;<i> besonderes, also keine allzu grossen Erwartungen bitte ;-)
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Liebe Grüsse,
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Tom
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> -----------------
+</I>&gt;<i>
+</I>&gt;<i> Hi,
+</I>&gt;<i>
+</I>&gt;<i> der MySQL Dump dürfte ja reines Text-Format sein.
+</I>&gt;<i>
+</I>&gt;<i> Notepad kann seit (Win2000 oder XP) auch UTF-8 lesen + schreiben...
+</I>&gt;<i>
+</I>&gt;<i> Dann könnte es klappen, wenn du den Dump in Notepad öffnest, dann  
+</I>&gt;<i> speicherst als Codierung: ANSI (bei speichern unter ganz unten im  
+</I>&gt;<i> Dialog).
+</I>&gt;<i>
+</I>&gt;<i> Ist nur so ne Idee... ausprobiert hab ichs noch nicht.
+</I>&gt;<i>
+</I>&gt;<i> Grüße
+</I>&gt;<i>
+</I>&gt;<i> Markus
+</I>
+Ja, das MySQL-Dump ist SQL, also reiner Text. Das Problem ist, dass  
+der Text eben *nicht* UTF-8-kodiert ist. Durch den offensichtlichen  
+Fehler im Exportprozess ist der Text in gar keinem gültigen Encoding,  
+somit hilft auch leider kein fähiger Texteditor, sondern eben nur  
+Handarbeit.
+
+Beste Grüße,
+Ralph
+
+&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Openthesaurus-discuss mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/openthesaurus-discuss">Openthesaurus-discuss at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/openthesaurus-discuss">https://lists.berlios.de/mailman/listinfo/openthesaurus-discuss</A>
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Vorherige Nachricht: <A HREF="000056.html">[OpenThesaurus] Fehlerhafte Umlaute im Datenbank-Dump
+</A></li>
+	<LI>Nächste Nachricht: <A HREF="000058.html">[OpenThesaurus] Fehlerhafte Umlaute im Datenbank-Dump
+</A></li>
+         <LI> <B>Nachrichten sortiert nach:</B>
+              <a href="date.html#57">[ Datum ]</a>
+              <a href="thread.html#57">[ Thema ]</a>
+              <a href="subject.html#57">[ Betreff (Subject)]</a>
+              <a href="author.html#57">[ Autor ]</a>
+         </LI>
+       </UL>
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/openthesaurus-discuss">Mehr Informationen &uuml;ber die Mailingliste Openthesaurus-discuss</a><br>
+</body></html>

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ <HEAD>
+   <TITLE> Fehlerhafte Umlaute im Datenbank-Dump
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/openthesaurus-discuss/2009q2/index.html" >
+   <LINK REL="made"  HREF="mailto:openthesaurus-discuss%40lists.berlios.de?Subject=Re%3A%20Fehlerhafte%20Umlaute%20im%20Datenbank-Dump&In-Reply-To=%3C509ACFF0-1CB7-482B-80A6-3CBC11779DDE%40inf.fu-berlin.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   
+   <LINK REL="Next"  HREF="000054.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>Fehlerhafte Umlaute im Datenbank-Dump</H1>
+    <B>Ralph Schäfermeier</B> 
+    <A
+    HREF="mailto:openthesaurus-discuss%40lists.berlios.de?Subject=Re%3A%20Fehlerhafte%20Umlaute%20im%20Datenbank-Dump&In-Reply-To=%3C509ACFF0-1CB7-482B-80A6-3CBC11779DDE%40inf.fu-berlin.de%3E"
+           TITLE="Fehlerhafte Umlaute im Datenbank-Dump">schaef at inf.fu-berlin.de
+                  </A><BR>
+    <I>Mi Apr  1 02:13:05 CEST 2009</I>
+    <P><UL>
+        
+        <LI>Nächste Nachricht: <A HREF="000054.html">[OpenThesaurus] Fehlerhafte Umlaute im Datenbank-Dump
+</A></li>
+         <LI> <B>Nachrichten sortiert nach:</B> 
+              <a href="date.html#53">[ Datum ]</a>
+              <a href="thread.html#53">[ Thema ]</a>
+              <a href="subject.html#53">[ Betreff (Subject) ]</a>
+              <a href="author.html#53">[ Autor ]</a>
+         </LI>
+       </UL>
+    <HR>
+<!--beginarticle-->
+<PRE>Hallo,
+
+ich würde OpenThesaurus gerne lokal verwenden. Dazu habe ich das mySQL- 
+Dump heruntergeladen, welches wohl UTF-8-kodiert sein soll. Allerdings  
+sind sämtliche Sonderzeichen wie Umlaute, Vokale mit Akzenten usw.  
+fehlerhaft.
+
+Zum Beispiel wird das Wort &quot;übermäßig&quot; im Datenbank-Dump zu &quot;Ã¼bermÃ 
+&#164;&#195;&#376;ig&quot; verst&#252;mmelt.
+
+Wahrscheinlich ist an irgendeiner Stelle im Export-Prozess das falsche  
+Encoding eingestellt (den Ergebnissen einer kurzen Google-Recherche  
+zufolge führt die Umwandlung von Text im CP1252-Encoding nach UTF-8 zu  
+genau dieser Kombination von falschen Zeichen).
+
+Ich habe das jetzt hier bei mir von Hand korrigiert. Vielleicht werden  
+zukünfitige DB-Dump-BenutzerInnen dankbar sein, wenn der kleine Fehler  
+korrigiert wird und die Sonderzeichen beim Export erhalten bleiben. :-)
+
+Ansonsten Danke für dieses großartige Projekt!
+
+Beste Grüße,
+Ralph
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	<LI>Nächste Nachricht: <A HREF="000054.html">[OpenThesaurus] Fehlerhafte Umlaute im Datenbank-Dump
+</A></li>
+         <LI> <B>Nachrichten sortiert nach:</B>
+              <a href="date.html#53">[ Datum ]</a>
+              <a href="thread.html#53">[ Thema ]</a>
+              <a href="subject.html#53">[ Betreff (Subject)]</a>
+              <a href="author.html#53">[ Autor ]</a>
+         </LI>
+       </UL>
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/openthesaurus-discuss">Mehr Informationen &uuml;ber die Mailingliste Openthesaurus-discuss</a><br>
+</body></html>
